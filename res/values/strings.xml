@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, UserInterface!</string>
+    <string name="app_name">Doodle</string>
+    
+	<color name="background">#000000</color>
+	<color name="background2">#FFFFFF</color>
+	
+    
+            
+<string name="changecolor">CHANGE COLOR</string>
+
+<string name="changesize">CHANGE SIZE</string>
+
+<string name="showwhite">USE WHITE</string>
+
+<string name="showalert">SHOW ALERT</string>
+
+<string name="showblack">USE BLACK</string>
+
+</resources>

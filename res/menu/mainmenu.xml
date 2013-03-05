@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/buttonone"
+          android:icon="@drawable/paint"
+          android:title="@string/changecolor">
+          <menu>
+              <item android:id="@+id/red"
+                  	android:title="RED"/>
+              <item android:id="@+id/orange"
+                  	android:title="ORANGE"/>
+              <item android:id="@+id/yellow"
+                  	android:title="YELLOW"/>
+              <item android:id="@+id/green"
+                  	android:title="GREEN"/>
+              <item android:id="@+id/blue"
+                  	android:title="BLUE"/>
+              <item android:id="@+id/indigo"
+                  	android:title="INDIGO"/>
+              <item android:id="@+id/violet"
+                  	android:title="VIOLET"/>
+              <item android:id="@+id/black"
+                  	android:title="BLACK"/>   
+              <item android:id="@+id/white"
+                  	android:title="WHITE"/> 
+         </menu>
+         </item>
+          
+    <item android:id="@+id/buttontwo"
+          android:icon="@drawable/size"
+          android:title="@string/changesize">
+          <menu>
+              <item android:id="@+id/small"
+                  	android:title="SMALL"/>
+               <item android:id="@+id/medium"
+                  	android:title="MEDIUM"/>
+               <item android:id="@+id/large"
+                  	android:title="LARGE"/>
+         </menu>
+    </item>
+          
+    <item android:id="@+id/buttonthree"
+          android:icon="@drawable/menu3icon"
+          android:title="@string/showwhite" />
+          
+    <item android:id="@+id/buttonfour"
+          android:icon="@drawable/menu4icon"
+          android:title="@string/showblack" />
+          
+   <item android:id="@+id/buttonfive"
+          android:icon="@drawable/menu5icon"
+          android:title="@string/showalert" /> 
+</menu>
